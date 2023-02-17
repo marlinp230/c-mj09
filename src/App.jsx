@@ -26,15 +26,19 @@ function App() {
                     <tr>
                       <th scope="col">Monto</th>
                       <th scope="col">Porcentaje</th>
+                      <th scope="col">subtatal</th>
                       <th scope="col">tatal</th>
+
                      
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      <th scope="row">{monto}</th>
-                      <td>{porcentaje}</td>
-                      <td>{monto*porcentaje}</td>
+                      <th scope="row">${monto}</th>
+                      <td>%{porcentaje}</td>
+                      <td>${monto*porcentaje}</td>
+                      <td>${monto}+{monto*porcentaje}%</td>
+
             
                     </tr>
                  
