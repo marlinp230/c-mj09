@@ -12,8 +12,8 @@ function App() {
           <div className="col-md-12  mt-2">
             <div className="card">
               <div className="card-body">
-                <input type="number" className="form-control m-2 bg-dark text-white" placeholder="Monto" onChange={(e) => setmonto(e.target.value)} />
-                <input type="number" className="form-control m-2 bg-dark text-white" placeholder=" %" onChange={(e) => setporcentaje(e.target.value)} />
+                <input type="number" className="form-control m-2 bg-dark text-white" placeholder="Monto"value={monto} onChange={(e) => setmonto(e.target.value)} />
+                <input type="number" className="form-control m-2 bg-dark text-white" placeholder=" %" value={porcentaje} onChange={(e) => setporcentaje(e.target.value)} />
 
                 <select name="" id="" className="form-control m-2 bg-dark text-white"  onChange={(e) => setporcentaje(e.target.value)}>
                 <option value="0.0" selected>0%</option>
