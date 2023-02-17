@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <div className="container">
         <div className="row">
-          <div className="col-md-6 offset-2 mt-2">
+          <div className="col-md-12  mt-2">
             <div className="card">
               <div className="card-body">
                 <input type="number" className="form-control m-2 bg-dark text-white" placeholder="Monto" onChange={(e) => setmonto(e.target.value)} />
@@ -18,7 +18,7 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="col-md-6 offset-2 mt-2">
+          <div className="col-md-12  mt-2">
             <div className="card">
               <div className="card-body">
                 <table class="table">
